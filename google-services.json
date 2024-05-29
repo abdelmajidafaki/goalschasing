@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "834682588219",
+    "project_id": "pfa-557ee",
+    "storage_bucket": "pfa-557ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834682588219:android:ebd7b82f5f2284f3b7a01e",
+        "android_client_info": {
+          "package_name": "com.afakiabdel.goalschasing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJOFpAuSm_qakzQfgUbyuXMvNmK6Svliw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

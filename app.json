@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "goalschasing",
+    "slug": "goalschasing",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/myNotificationIcon.png",
+    "userInterfaceStyle": "light",
+    "notification": {
+      "icon": "./assets/icons/myNotificationIcon.png",
+      "color": "#ffffff"
+    },
+    "splash": {
+      "image": "./assets/icons/myNotificationIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.afakiabdel.goalschasing",
+      "icon": "./assets/icons/myNotificationIcon.png",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icons/myNotificationIcon.png",
+          "color": "#ffffff",
+          "sound": true,
+          "priority": "max"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "Rubik-Regular": "./assets/fonts/Rubik-Regular.ttf",
+          "Rubik-Bold": "./assets/fonts/Rubik-Bold.ttf"
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+         
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4967e793-af19-411b-ba76-87c27862aa18"
+      }
+    },
+    "owner": "afakiabdel"
+  }
+}
