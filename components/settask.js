@@ -139,7 +139,7 @@ export default function SetTask({ closeModal }) {
             ]}
             source={require("../assets/icons/tasksicon/gymicon.png")}
           />
-          <Text style={styles.text}> Gym</Text>
+          <Text style={styles.text}> Sports</Text>
         </Pressable>
 
         <Pressable

@@ -86,7 +86,7 @@ export default function Edittask({ closeModal, task }) {
       setShowDatePicker(false);
     }
 
-    // For iOS, change mode to "time" after selecting date
+    
     if (Platform.OS === "ios" && mode === "date") {
       setMode("time");
     }

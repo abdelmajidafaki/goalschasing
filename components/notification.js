@@ -5,7 +5,7 @@ import { firestoreDB, query, where, onSnapshot, collection } from "../database/f
 // Request permission to send notifications
 export async function registerForPushNotificationsAsync() {
     try {
-        const projectId = '4967e793-af19-411b-ba76-87c27862aa18'; // Use slug from Expo config
+        const projectId = '4967e793-af19-411b-ba76-87c27862aa18'; 
         if (!projectId) {
             console.error('Project ID not found in Expo config.');
             return null;

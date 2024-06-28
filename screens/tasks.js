@@ -46,7 +46,7 @@ const HomePage = () => {
           return () => unsubscribe();
         } else {
           console.log("No user logged in");
-          setTasksLength(0); // Reset tasks length if no user is logged in
+          setTasksLength(0); 
         }
       } catch (error) {
         console.error("Error fetching tasks length:", error);

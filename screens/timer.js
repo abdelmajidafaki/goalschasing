@@ -48,7 +48,6 @@ const Timer = () => {
           clearInterval(intervalId);
           setisrunning(false);
           setPaused(false);
-          // Reset timer values to 0 when the timer finishes
           sethours(0);
           setminutes(0);
           setseconds(0);

@@ -42,7 +42,7 @@
         {
           "icon": "./assets/icons/myNotificationIcon.png",
           "color": "#ffffff",
-          "sound": true,
+          "sound":"default",
           "priority": "max"
         }
       ],
